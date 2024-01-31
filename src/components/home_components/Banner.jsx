@@ -3,7 +3,7 @@ import phone from "../../assets/phone 1.png";
 export default function Banner() {
   return (
     <div className="h-[550px] ">
-      <div className="flex flex-col  items-center justify-center mt-24 mb-14">
+      <div className="flex flex-col  items-center justify-center mt-28 mb-14">
         <h1 className="text-[48px] text-center font-semibold leading-0">
           Analytics that transform your <br /> product inside-out
         </h1>
@@ -17,12 +17,12 @@ export default function Banner() {
           </button>
         </div>
       </div>
-      <div className=" ">
-        <img src={tablet} className="h-[500px] w-[700px] mx-auto " />
-        <div className="mt-[-350px] z-[999] flex justify-around">
+      <div className=" relative flex justify-center">
+        <img src={tablet} className="h-[500px] w-[700px] absolute " />
+        <div className=" z-[999] ">
           <div />
           <div />
-          <img src={phone} className="h-[400px] " />
+          <img src={phone} className="h-[400px] absolute mt-36 right-[28%]" />
           <div />
         </div>
       </div>
