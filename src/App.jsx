@@ -3,6 +3,7 @@ import Navbar from "./components/shared/Navbar";
 import Banner from "./components/home_components/Banner";
 import banner from "../src/assets/banner.png";
 import ProductFeatures from "./components/home_components/ProductFeatures";
+import AboutUs from "./components/home_components/AboutUs";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -13,6 +14,7 @@ function App() {
         <Banner />
       </div>
       <ProductFeatures />
+      <AboutUs />
     </div>
   );
 }
